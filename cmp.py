@@ -27,7 +27,7 @@ def sms_send1(a,msg):
 def sms_send2(emailid):
     server = smtplib.SMTP("smtp.gmail.com", 587)  # 587 is a port number
     server.starttls()
-    server.login("ranichorlekar01@gmail.com", "uzjnfrkeuqudbgyx")
+    server.login("meenakshivelip5@gmail.com", "wkgqsqmcykvuggof")
 
     server.sendmail("&&&&&&&&&&&", emailid, msg)
 
